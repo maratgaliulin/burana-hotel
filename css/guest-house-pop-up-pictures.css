@@ -1,0 +1,192 @@
+
+/*-----------Общие свойства------------------*/
+
+.gh-pop-up-pic-content {
+  display:block;
+  position:relative;
+  overflow-x: hidden;
+  margin-bottom: 5rem;
+  height: 90%;
+  padding: 1rem 0 4rem 0;
+  background-color: #cbcccd;
+}
+
+.img-pop-up-h3 {
+font-size: 1.5rem;
+}
+
+.img-pop-up-detail {
+padding-top: 5%;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.pop-up-img-fluid {
+padding: 0 !important;
+margin: 0 !important;
+}
+
+/*---------Первый рисунок ----------------*/
+#gh-pop-up-pic1 {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  top: 0;
+  bottom: 0;
+left:0;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  z-index: 9999999;
+  overflow-y: scroll;
+}
+
+#close-gh-pop-up-pic1 {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#gh-pop-up-pic1 {
+  display: none;
+}
+
+#pop-up1 p {
+font-size: 0.9rem !important;
+}
+
+/*-------------Второй рисунок--------------*/
+
+#gh-pop-up-pic2 {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  top: 0;
+  bottom: 0;
+left:0;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  z-index: 9999999;
+  overflow-y: scroll;
+}
+
+#close-gh-pop-up-pic2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#gh-pop-up-pic2 {
+  display: none;
+}
+
+
+/*-------------Третий рисунок--------------*/
+
+#gh-pop-up-pic3 {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  top: 0;
+  bottom: 0;
+left:0;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  z-index: 9999999;
+  overflow-y: scroll;
+}
+
+#close-gh-pop-up-pic3 {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#gh-pop-up-pic3 {
+  display: none;
+}
+
+/*-------------Четвёртый рисунок--------------*/
+
+#gh-pop-up-pic4 {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  top: 0;
+  bottom: 0;
+left:0;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  z-index: 9999999;
+  overflow-y: scroll;
+}
+
+#close-gh-pop-up-pic4 {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#gh-pop-up-pic4 {
+  display: none;
+}
+
+
+/*-------------Пятый рисунок--------------*/
+
+#gh-pop-up-pic5 {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  top: 0;
+  bottom: 0;
+left:0;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  z-index: 9999999;
+  overflow-y: scroll;
+}
+
+#close-gh-pop-up-pic5 {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#gh-pop-up-pic5 {
+  display: none;
+}

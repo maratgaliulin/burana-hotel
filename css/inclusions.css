@@ -1,0 +1,56 @@
+.bi {
+    padding-right: 1rem;
+    font-style: normal;
+    height: 40px;
+    width: 60px;
+    margin-bottom: -0.4rem;
+}
+
+.bi-breakfast {
+  content: url(/img/icons/Tilda_Icons_41_hotel_breakfast.png);}
+
+.bi-parking {
+    content: url(/img/icons/Tilda_Icons_41_hotel_parking.png);}
+
+.bi-laundry {
+      content: url(/img/icons/Tilda_Icons_41_hotel_washingmachine.png);}
+
+
+.bi-room-service {
+        content: url(/img/icons/Tilda_Icons_41_hotel_roomservice.png);}
+
+.bi-security {
+        content: url(/img/icons/Tilda_Icons_38_Cleaning_company_security.png);}
+
+.bi-wifi {
+    content: url(/img/icons/Tilda_Icons_42_wi-fi.png);}
+
+.bi-music {
+        content: url(/img/icons/Tilda_Icons_42_restaurant_chillout.png);}
+
+.bi-dessert {
+      content: url(/img/icons/Tilda_Icons_42_restaurant_dessert.png);}
+
+.bi-minibar {
+            content: url(/img/icons/4wed_glasses.png);}
+
+.bi-chef {
+          content: url(/img/icons/Tilda_Icons_42_restaurant_cook.png);}
+
+.bi-phone {
+        content: url(/img/icons/Tilda_Icons_42_restaurant_phone.png);}
+
+.bi-fitness {
+        content: url(/img/icons/Tilda_Icons_12ft_barbell.png);}
+
+.bi-transfer {
+      content: url(/img/icons/Tilda_Icons_14ht_transfer.png);}
+
+.bi-celebration {
+  content: url(/img/icons/Tilda_Icons_17ked_baloons.png);}
+
+.bi-zoo {
+    content: url(/img/icons/zoo.png);}
+
+.bi-shoes {
+        content: url(/img/icons/shoe-cleaning.png);}    

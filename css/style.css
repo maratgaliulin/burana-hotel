@@ -1,0 +1,958 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+font-family: "Lato", sans-serif;
+font-weight:400;
+font-size: 16px;
+line-height: 1.7;
+color: #777;
+padding: 0 30px;
+}
+
+
+@font-face {
+  font-family: "a_FuturicaBs";
+  src: url("/fonts/FUTU_BL.TTF");
+}
+
+/*
+@font-face {
+  font-family: "PF Square Sans Pro";
+  src: url("/fonts/PFSquareSansPro-Bold");
+}
+*/
+
+/*-----общие свойства---------*/
+
+#classic-suite-1 {
+font-size: 3rem !important;
+}
+
+.page p {
+  background-color: #ffffff;
+font-family: a_FuturicaBs;
+font-size: 18px;
+line-height: 1.4;
+letter-spacing: 0;
+color: #666669;
+  }
+
+.page h1 {
+font-family: a_FuturicaBs;
+letter-spacing: 0;
+color: #666669;
+  }
+
+  .page h2 {
+  font-family: a_FuturicaBs;
+  letter-spacing: 0;
+  color: #666669;
+    }
+
+.page h3 {
+font-family: a_FuturicaBs;
+letter-spacing: 0;
+color: #666669;
+  }
+
+  .page h4 {
+  font-family: a_FuturicaBs;
+  letter-spacing: 0;
+  color: #666669;
+    }
+
+.page h5 {
+font-family: a_FuturicaBs;
+letter-spacing: 0;
+color: #666669;
+  }
+
+.page q {
+font-family: a_FuturicaBs;
+letter-spacing: 0.125rem;
+color: #666669;
+  }
+
+.page span {
+font-family: a_FuturicaBs;
+letter-spacing: 0;
+color: #666669;
+  }
+
+.page blockquote {
+color: #666669 !important;
+}
+
+.content {
+display: inline-block;
+  width: 100%;
+overflow-x:hidden;
+}
+
+#footer {
+  width: 100%;
+}
+
+h1 {
+  font-family: a_FuturicaBs;
+  font-size: 40px;
+  font-weight: 40;
+  letter-spacing: 0.1em;
+  color: #272726;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.span {
+  display: block;
+  text-align: center;
+  padding: 12px 0 15px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.span img {
+  width: 250px; /*нужная ширина полосы*/
+	height: 11px;
+}
+
+/*----- header -------*/
+
+#header {
+  margin-top: -0.52em;
+  background-color: #ffffff;
+  z-index: 9999999;
+  padding: 0 30px;
+height: auto;
+}
+
+#layout-top {
+  border-bottom: 0.2px solid #dad9dc;
+}
+
+#img_1 {
+  padding: 0.2em;
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.date {
+  position: relative;
+  margin-top: 1em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+#button {
+  font-size: 0.9rem;
+color: #952e37;
+    text-transform: uppercase;
+    padding: 14px 50px !important;
+    letter-spacing: 0.05em;
+    border-color: #952e37;
+    border-width: 0.2px;
+    background-color: white !important;
+    cursor: pointer;
+}
+
+
+#button:hover {
+  background-color: #952e37 !important;
+  transition: 0.3s;
+color: #ffffff !important;
+text-decoration: none;
+}
+
+
+#input-text-header {
+  width: 50px;
+  background-color: #952e37;
+  border-style: 1px solid;
+  border-color: #952e37;
+}
+
+.explore {
+  display: block;
+  position: relative;
+  margin: 15px auto;
+  background-color: #ffffff;
+  border: 1px solid #272726;
+  cursor: pointer;
+  outline: none;
+}
+
+.explore a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #272726;
+}
+
+.explore:hover {
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: #272726;
+  border-color: #ffffff;
+  }
+
+  .explore a:hover {color: #ffffff;
+  text-decoration: none;}
+
+
+
+
+/*------------Дата и время--------------------------*/
+
+.input-header {
+letter-spacing: 0.1rem !important;
+}
+
+
+
+/*---------menu---------------*/
+
+#menu-box {
+  display: none;
+}
+
+/*-----кнопки открытия и закрытия меню-------*/
+#show_menu {
+  border: none;
+  border-left: 0.3px solid #dad9dc;
+  cursor: pointer;
+  outline: none;
+}
+
+#close {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#menu-all {
+  -moz-transition: all 3000ms;
+  -webkit-transition: all 3000ms;
+  transition: all 3000ms;
+}
+
+/*-----------------------------------------------*/
+
+#menu-box {
+  position: absolute;
+top:0;
+left: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #353534;
+}
+
+#footer-short {
+  margin: 2em auto;
+}
+
+.menu > li {
+  padding: 1.5em 0;
+}
+
+#main_menu li a {
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#e5e5e1;;
+  text-align: center;
+}
+
+.menu :hover {
+  background-color: #424242;
+}
+
+
+
+
+
+/*---------- body-------------*/
+
+.p1 {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  margin: 0 2em;
+  text-align: justify;
+}
+
+.p1 q {
+  font-style: italic;
+}
+
+.p2 {text-align: center;}
+
+.inclusions-text {
+font-size: 1.7rem;
+}
+
+/*-------------------Footer.php------------------------*/
+
+#footer {
+padding-bottom: 30px;
+background-position: top;
+background-size: cover;
+repeat: no-repeat;
+}
+
+#newsletter-alert {
+display: none;
+}
+
+#newsletterErrorBlock {
+display: none;
+}
+
+
+/*--------------отдельные свойства------------*/
+
+#index-page-logo {
+position: relative;
+    height: 90vh;
+    background: linear-gradient(to bottom, rgba(8, 87, 249, 0.8), rgba(8, 212, 249, 0.6)), url(/img/hotel-frontpage/5.jpg);
+    background-size: cover;
+    repeat: no-repeat;
+    background-position: top;
+            clip-path: polygon(0 0, 100% 0, 100% 75vh, 85% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 85% 100%, 0 100%);
+}
+
+#logo-burana {
+position: absolute;
+top: 65px;
+left: 30px;
+}
+
+#logo-picture {
+width: auto;
+height: 90px;
+}
+
+#light-grey {
+background-image: linear-gradient(to left, #e3e7fb, #f2f2f2);
+}
+
+.header-text {
+width: 65%;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.heading-primary span {
+color: #ffffff !important;
+text-transform: uppercase;
+backface-visibility:hidden;
+margin-bottom: 60px;
+}
+
+.heading-primary-main {
+    display:block;
+    font-size: 60px;
+    font-weight: 400 !important;
+    letter-spacing: 25px !important;
+    font-family: "a_FuturicaBs" !important;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.heading-primary-sub {
+    display:block;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 7px !important;
+    margin: 30px 0;
+    font-family: "a_FuturicaBs" !important;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    /*
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    */
+}
+
+.btn-animated {
+animation: moveInBottom 0.5s ease-out 0.5s;
+animation-fill-mode: backwards;
+}
+
+@keyframes moveInRight {
+
+0% {
+    opacity: 0;
+    transform: translateX(100px);
+}
+
+80% {
+    transform: translateX(-10px);
+}
+
+100% {
+    opacity: 1;
+    transform: translate(0)
+}
+
+}
+
+
+@keyframes moveInLeft {
+
+0% {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+80% {
+    transform: translateX(10px);
+}
+
+100% {
+    opacity: 1;
+    transform: translate(0)
+}
+
+}
+
+
+@keyframes moveInBottom {
+
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+100% {
+    opacity: 1;
+    transform: translate(0)
+}
+
+}
+
+
+
+.container-fluid-start {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 10rem;
+}
+
+.btn-start {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.btn-start:hover {
+  background-color: rgba(49, 49, 49, 1) !important;
+  border-color: rgba(49, 49, 49, 1) !important;
+}
+
+.container-fluid-start h1 {
+  font-family: a_FuturicaBs;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+}
+
+.container-fluid-start p {
+  font-family: a_FuturicaBs;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+}
+
+#one {
+  color: black;
+  font-size: 1.2em;
+    }
+#one:hover {
+  color: #95079a;
+  cursor: pointer;
+}
+
+#portrait {
+  display: block;
+  float:left;
+  margin-left: 9em;
+  padding-right: 6em;
+  margin-top: -4em;
+}
+
+#sidequote {
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: #666669;
+  display: block;
+  margin: 4em;
+  padding: 0 auto;
+  font-weight: 10;
+  margin-bottom: 0;
+}
+
+.blockquote {
+  font-family: "a_FuturicaBs";
+}
+
+#sign-name {
+  float: left;
+  font-size: 20px;
+}
+
+#signature {
+  display: block;
+  position: relative;
+  float: left;
+  margin-left: -7em;
+  margin-top: 4em;
+  margin-bottom: 0;
+}
+
+#quote {
+  display: block;
+  padding-bottom: 5em;
+}
+
+
+#news-submit {
+color: white !important;
+border-color: white !important;
+}
+
+.bottom-link-pill {
+font-size: 2rem !important;
+}
+
+/*-----------------Bootstrap для features---------------------*/
+
+.experience {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#layout-exp {
+  background-color: #e4e4e3;
+}
+
+/*------------Hotel.php------------------*/
+.container-fluid {
+  margin-top: -150px;
+  color: #ffffff;
+}
+
+.container-fluid p {
+    font-size: 25px;
+}
+
+#hotel-page-logo {
+   width: 100%
+   height: 600px;
+   background: radial-gradient(120% 70%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(/img/fon1.jpg);
+  background-size: cover;
+}
+
+#show_include {
+  display: none;
+}
+
+#suite-table {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  z-index: 9999999;
+  overflow-y: scroll;
+}
+
+#suite-table-content {
+  display:block;
+  position:relative;
+  overflow-x: hidden;
+  margin-bottom: 5rem;
+  height: 970px;
+}
+
+#suite-table {
+  display: none;
+}
+
+#gh-table {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  z-index: 9999999;
+  overflow-y: scroll;
+}
+
+#gh-table-content {
+  display:block;
+  position:relative;
+  overflow-x: hidden;
+  margin-bottom: 5rem;
+  height: 970px;
+}
+
+#gh-table {
+  display: none;
+}
+
+#close-suite-table {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#close-suite-table1 {
+background-color: rgba(0, 0, 0, 0);
+border: none;
+outline: none;
+position: absolute;
+top: 11%;
+right: 5%;
+display: block;
+z-index: 9999999;
+}
+
+#close-suite-table1:hover {
+cursor: pointer;
+}
+
+#close-gh-table:hover {
+cursor: pointer;
+}
+
+.hotel-pic {
+  width: 100%;
+  height: 340px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:auto;
+}
+
+#card-1 {
+  margin-top: -20px;
+}
+
+#btn-suite-table {
+  display: inline;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-bottom-color: #6d6c6c;
+}
+
+#btn-suite-table1 {
+display: inline;
+background-color: #ffffff;
+border: 1px solid #ffffff;
+border-bottom-color: #6d6c6c;
+}
+
+#btn-suite-table:hover {
+  border-bottom-color: #9a0719;
+  border-top-color: #9a0719;
+  color: #9a0719;
+  transition: 0.6s;
+}
+
+#btn-suite-table1:hover {
+  border-bottom-color: #9a0719;
+  border-top-color: #9a0719;
+  color: #9a0719;
+  transition: 0.6s;
+}
+
+#btn-suite-table a:hover {
+  color: #9a0719;
+}
+
+#btn-suite-table1 a:hover {
+  color: #9a0719;
+}
+
+.pills {
+  position: absolute;
+  bottom: 30px;
+}
+
+
+.pill {cursor: pointer;
+  display: inline-block;
+  color: rgba(1, 1, 1, 1);
+  padding: 0.2rem 0.8rem;
+  margin: 0.2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.pill {
+  -webkit-transition: background 0.5s ease,color 0.5s ease;
+    -moz-transition: background 0.5s ease,color 0.5s ease;
+    -ms-transition: background 0.5s ease,color 0.5s ease;
+    -o-transition: background 0.5s ease,color 0.5s ease;
+    transition: background 0.5s ease,color 0.5s ease;
+}
+
+
+#p-card {
+  font-size: 0.95rem;
+}
+
+
+.w-85 {
+width: 85%;
+}
+
+.w-90 {
+width: 90%;
+}
+
+.carousel-control {
+display: block;
+position: relative;
+height: 85vh;
+}
+
+.gallery-carousel-indicators {
+position: absolute;
+top:73vh;
+}
+
+/*------------hotel-prices.php--------------------------*/
+
+#hotel-price-sm-table {
+text-align: left;
+}
+
+.hotel-price-col {
+margin-left: 4%;
+}
+
+.table-text-white h5 {
+padding: 0.5rem;
+color: #ccd0d2;
+}
+
+.table-text-white q {
+padding: 0.5rem;
+color: #ccd0d2;
+}
+
+
+/*-----------------response.php-------------------------*/
+
+
+.response-header-text p {
+font-size: 2.5em;
+}
+
+
+#response-page-logo {
+   width: 100%
+   height: 600px;
+   background: radial-gradient(120% 70%, rgba(252, 252, 252, 0.2), rgba(0, 0, 0, 0.3)), url(/img/1.jpg);
+   background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+#response-form {
+margin-top: 6rem;
+}
+
+
+/*--------------Registration--------------------*/
+
+#registration-page {
+background: url(/img/99.jpg);
+background-size:cover;
+}
+
+.mid {
+background: rgba(252, 252, 252, 0.15);
+background-position: center;
+height: 1200px;
+overflow: hidden;
+}
+
+#errorBlock {
+display: none;
+}
+
+#success-btn {
+display: none;
+}
+
+#returnToMain {
+display: none;
+}
+
+#alert {
+display: none;
+}
+
+/*-----------------Auth-----------------------*/
+
+#login-alert {
+display:none;
+}
+
+#loginErrorBlock {
+display:none;
+}
+
+
+#login-page {
+overflow:auto;
+background: url(/img/99.jpg);
+background-size:cover;
+}
+
+#auth-exit {
+padding: 0.5rem 1rem;
+}
+
+#responseDeleteErrorBlock {
+display: none;
+}
+#responseDeleteSuccessBlock {
+display: none;
+}
+
+#reservationDeleteErrorBlock {
+display:none;
+}
+
+#reservationDeleteSuccessBlock {
+display:none;
+}
+
+/*---------------------Responses-----------------------*/
+
+#responseErrorBlock {
+display: none;
+}
+
+#response-paragraph {
+background-color: #d9f3f7 !important;
+}
+
+.response-paragraph p {
+font-size: 1.5rem !important;
+}
+
+#response-button {
+font-size: 1.5rem !important;
+}
+
+/*-------------Video Container-------------------------*/
+
+
+.video {
+z-index: 9999999;
+position:fixed;
+width: 100%;
+height: 100%;
+top: 0;
+right: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.video {
+display: none;
+}
+
+.video_block {
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%, 10%);
+  padding: 5px;
+  width: 100%;
+  height: 75vh;
+  background: #b9bbbd;
+}
+
+
+.video_block .video-container {
+  /* margin: 40px 40px; */
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.youtube {
+  height: 100% !important;
+}
+
+.video-close {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+z-index: 9999;
+}
+
+.video-close:hover {
+cursor: pointer !important;
+}

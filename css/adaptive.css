@@ -1,0 +1,260 @@
+@media (min-width:1801px) and (max-width:2068px) {
+
+}
+
+@media (min-width:1601px) and (max-width:1800px) {
+
+#suite-text {
+padding-top: 35%;
+}
+
+#bottom-img {
+display: none;
+}
+}
+
+@media (min-width:1201px) and (max-width:1600px) {
+#date-registration {
+display:none;
+}
+#img_1 {
+margin-left: 10%;
+}
+#menu-all {
+margin-right: 5%;
+}
+#show_menu {
+border-left: 1px solid #dad9dc;
+border-right: 1px solid #dad9dc;
+}
+#reg-button-bottom {
+display:block !important;
+}
+
+#bottom-img {
+display: none;}
+
+}
+
+/*iPads landscape*/
+@media screen and (min-device-width : 901px) and (max-device-width : 1200px) {
+#date-registration {
+display:none;
+}
+#img_1 {
+margin-left: 10%;
+}
+#menu-all {
+margin-right: 5%;
+}
+#show_menu {
+border-left: 1px solid #dad9dc;
+border-right: 1px solid #dad9dc;
+}
+#reg-button-bottom {
+display:block !important;
+}
+
+#bottom-img {
+display: none;}
+
+#lux-carousel {
+height: 770px;
+}
+
+}
+
+/*iPads portrait*/
+@media screen and (min-device-width : 601px) and (max-device-width : 900px) {
+#date-registration {
+display:none;
+}
+#img_1 {
+margin-left: 10%;
+}
+#menu-all {
+margin-right: 5%;
+}
+#show_menu {
+border-left: 1px solid #dad9dc;
+border-right: 1px solid #dad9dc;
+}
+#reg-button-bottom {
+display:block !important;
+}
+#bottom-img {
+display: none;}
+#lux-carousel {
+height: 750px;
+}
+}
+
+/*iPads portrait and landscape*/
+@media screen and (min-device-width : 100px) and (max-device-width : 600px) {
+
+#date-registration {
+display:none;
+}
+#img_1 {
+margin-left: 10%;
+}
+#menu-all {
+margin-right: 5%;
+}
+#show_menu {
+border-left: 1px solid #dad9dc;
+border-right: 1px solid #dad9dc;
+}
+#reg-button-bottom {
+display:block !important;
+}
+#bottom-img {
+display: none;}
+
+#lux-carousel {
+height: 750px;
+}
+
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1709px) {
+  .w-75-1 {
+    width: 1200px !important;
+  }
+  .pill {
+    font-size: 0.9rem;
+  }
+  .pills-1-2 {
+    bottom: 12%;
+  }
+
+.d-gh-none {
+display: none;
+}
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #button {
+    font-size: 0.7rem;
+    margin-left: -70px;
+  }
+
+#card-title-1 {
+  font-size: 2rem !important;
+}
+
+  #move-in {
+    margin-left: 5px !important;
+  }
+}
+
+
+@media (min-width: 1670px) {
+
+#card-title-1 {
+  font-size: 4rem !important;
+}
+}
+
+
+
+
+@media (min-width:1200px) and (max-width:1400px) {
+  .gh-paragraph p {
+    font-size: 0.75rem !important;
+  }
+
+  .gh-paragraph h1 {
+    font-size: 2rem !important;
+  }
+
+}
+
+
+
+
+@media (min-width:100px) and (max-width:1200px) {
+
+#suite-table-content {
+display: none;
+}
+
+#btn-suite-table {
+  display: none;
+}
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+.page p {
+font-size: 1.2rem !important;
+}
+
+.page a {
+font-size: 1.2rem !important;
+}
+}
+
+@media (min-width:100px) and (max-width:991px) {
+
+#header {
+position: relative;
+margin-bottom: -4.5rem;
+}
+
+.d-hotel-none {
+display:none !important;
+}
+
+#reg-button-bottom {
+display: inline-block !important;
+width: 50%;
+margin-right: 15px;
+margin-left: auto;
+bottom: 15px;
+border-radius: 45px !important;
+}
+
+.slide {
+height: 370px !important;
+}
+
+.gh-paragraph {position: relative;
+margin-top: 18rem;
+}
+
+#lux-gh-paragraph {
+margin-top: 0;
+}
+
+.bg-light-grey {
+height: 1050px;
+}
+
+}
+
+@media (min-width:992px) and (max-width:1080px) {
+.d-hotel-none {
+display:none !important;
+}
+}
+
+@media (min-width:1201px) {
+#hotel-price-sm-table {
+display: none;
+}
+#close-suite-table1 {
+display: none;
+}
+
+#btn-suite-table1 {
+  display: none;
+}
+
+}
+
+
+/*---------------------------------------------------------*/
